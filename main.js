@@ -16,9 +16,21 @@ db.run(`CREATE TABLE IF NOT EXISTS employees (id INT, first_name TEXT, last_name
 // _________queries__________
 
 // Write a statement to query the database and console.log() all employee records.
+  // db.all(`SELECT * FROM employees`, (err, table) => {
+  //   console.log(table)
+  // })
 
 // Write a statement to query the database and console.log() each employees jobTitle.
+  // db.all(`SELECT title FROM employees`, (err, titles) => {
+  //   console.log(titles)
+  // })
 
 // Write a statement to query the database and console.log() each employees firstName, lastName and address only.
+  // db.all(`SELECT first_name, Last_name, sign FROM employees`, (err, names) => {
+  //   console.log(names)
+  // })
 
 // Write a statement that returns all employees of a specified jobTitle.
+  // db.all(`SELECT first_name, Last_name FROM employees WHERE title = "king"`, (err, king) => {
+  //   console.log(king)
+  // })
