@@ -1,10 +1,10 @@
 {
   "list": [
-    {"id": "1", "first_name": "joel", "last_name": "legg", "title": "tool guy", "age": "25", "sign": "pisces"},
-    {"id": "2", "first_name": "billy", "last_name": "connolly", "title": "class clown", "age": "30", "sign": "aquarius"},
-    {"id": "3", "first_name": "james", "last_name": "west", "title": "king", "age": "29", "sign": "cancer"},
-    {"id": "4", "first_name": "dom", "last_name": "serrano", "title": "wiz kid", "age": "21", "sign": "taurus"},
-    {"id": "5", "first_name": "joe", "last_name": "shepard", "title": "voice actor", "age": "42", "sign": "aquarius"},
-    {"id": "6", "first_name": "michael", "last_name": "watson", "title": "cusak", "age": "32", "sign": "gemini"}
+    {"id": "1", "first_name": "joel", "last_name": "legg", "title": "tool guy", "age": "25", "sign": "pisces", "salary": "80000"},
+    {"id": "2", "first_name": "billy", "last_name": "connolly", "title": "class clown", "age": "30", "sign": "aquarius", "salary": "70000"},
+    {"id": "3", "first_name": "james", "last_name": "west", "title": "king", "age": "29", "sign": "cancer", "salary": "90000"},
+    {"id": "4", "first_name": "dom", "last_name": "serrano", "title": "wiz kid", "age": "21", "sign": "taurus", "salary": "100000"},
+    {"id": "5", "first_name": "joe", "last_name": "shepard", "title": "voice actor", "age": "42", "sign": "aquarius", "salary": "110000"},
+    {"id": "6", "first_name": "michael", "last_name": "watson", "title": "cusak", "age": "32", "sign": "gemini", "salary": "55000"}
   ]
 }

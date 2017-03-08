@@ -8,7 +8,7 @@ const populate = () => {
   list.forEach( each => {
       db.run(`INSERT INTO employees VALUES
         (
-        ${each.id}, "${each.first_name}", "${each.last_name}", "${each.title}", ${each.age}, "${each.sign}"
+        ${each.id}, "${each.first_name}", "${each.last_name}", "${each.title}", ${each.age}, "${each.sign}", ${each.salary}
         )`
       )
   })

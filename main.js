@@ -3,9 +3,14 @@
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('fakeCompany.sqlite')
 
-db.run(`CREATE TABLE IF NOT EXISTS employees (id INT, first_name TEXT, last_name TEXT, title TEXT, age INT, sign TEXT)`)
+db.run(`CREATE TABLE IF NOT EXISTS employees (id INT, first_name TEXT, last_name TEXT, title TEXT, age INT, sign TEXT, salary NUMBER)`)
 
 
+
+// _____bonus feature_____
+  // add a salary column to the employees table.
+  // Make sure to add a salary key value pair to each of the employee objects.
+  // Then drop the existing employees table, update the schema to accept a salary column, and repopulate the table.
 
 
 // _________queries__________
